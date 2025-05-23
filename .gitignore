@@ -1,0 +1,86 @@
+# Minecraft server specific
+logs/
+*.log
+*.log.gz
+crash-reports/
+debug/
+.console
+*jar
+*.playerskin
+
+# World files (often large and frequently changing)
+world/
+world_nether/
+world_the_end/
+*/region/
+*/data/
+*/playerdata/
+*/stats/
+*/advancements/
+*/datapacks/
+
+# AutoPlug specific
+autoplug/logs/
+autoplug/backups/
+autoplug/downloads/
+autoplug/system/jre/
+
+# Server JAR files and libraries (can be large)
+cache/
+versions/
+libraries/
+
+# User-specific files
+usercache.json
+version_history.json
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json
+help.yml
+permissions.yml
+
+# Session and runtime files
+*.lock
+*.dat
+*.dat_old
+
+# Database
+*.db
+*.sqlite    
+*.sqlite3   
+*.tiny
+*.mmdb
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Plugin-specific data (can be large and frequently changing)
+plugins/*/cache/
+plugins/*/data/
+plugins/bStats/
+plugins/spark/tmp-client/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific (if you use an IDE)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Keep these files even if ignored elsewhere
+!.gitignore
+!README.md
+.console_history
+server-icon.png
