@@ -43,7 +43,7 @@ anticheat:
     - deepslate_emerald_ore
     - ender_chest
     lava-obscures: false
-    max-block-height: 216
+    max-block-height: 128
     replacement-blocks:
     - chest
     - amethyst_block
